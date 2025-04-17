@@ -2,6 +2,9 @@
 
 Zero dependencies package to upload anonymous files to different hosting sites easily.
 
+> [!IMPORTANT]  
+> Please donate and support the owners of the websites you use if you can. And obviously don't abuse any of the services provided.
+
 ## Supported hosts
 
 | Website                                   | Max file size | Expiry                                              |
