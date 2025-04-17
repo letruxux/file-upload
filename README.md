@@ -27,7 +27,7 @@ const buf = await readFile(filename);
 const blob = new Blob([buf]);
 
 /* Upload on catbox, litterbox and 0x0 */
-const catboxUrl = catbox(blob, filename);
-const litterboxUrl = litterbox(blob, filename);
-const zeroX0Url = zeroX0x(blob, filename);
+const catboxUrl = await catbox(blob, filename);
+const litterboxUrl = await litterbox(blob, filename);
+const zeroX0Url = await zeroX0x(blob, filename);
 ```
