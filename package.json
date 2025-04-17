@@ -1,6 +1,6 @@
 {
   "name": "@letruxux/file-upload",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Zero dependencies package to upload anonymous files to different hosting sites easily.",
   "module": "./src/index.ts",
   "type": "module",
