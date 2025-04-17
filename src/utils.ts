@@ -23,8 +23,6 @@ export type UploadOptions = {
 };
 
 export const fetchText = async (endpoint: string, form: FormData): Promise<string> => {
-  console.log({ endpoint, form: Object.fromEntries(form.entries()) });
-
   const res = await fetch(endpoint, {
     method: "POST",
     body: form,
