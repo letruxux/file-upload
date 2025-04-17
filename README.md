@@ -4,7 +4,7 @@ Zero dependencies package to upload anonymous files to different hosting sites e
 Currently supports:
 
 - [catbox](https://catbox.moe)
-- [litterbox](https://litterbox.moe)
+- [litterbox](https://litterbox.catbox.moe)
 - [0x0](https://0x0.st)
 
 ## Installation
