@@ -1,0 +1,31 @@
+{
+  "name": "@letruxux/file-upload",
+  "version": "0.0.1",
+  "description": "Zero dependencies package to upload anonymous files to different hosting sites easily.",
+  "module": "index.ts",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "pub": "tsc && npm publish --access public"
+  },
+  "keywords": [
+    "file",
+    "upload",
+    "file-upload",
+    "anonymous",
+    "free"
+  ],
+  "devDependencies": {
+    "typescript": "^5"
+  },
+  "author": "letruxux",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/letruxux/file-upload.git"
+  }
+}
