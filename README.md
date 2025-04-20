@@ -35,5 +35,5 @@ const blob = new Blob([buf]);
 /* Upload on catbox, litterbox and 0x0 */
 const catboxUrl = await catbox(blob, filename);
 const litterboxUrl = await litterbox(blob, filename);
-const zeroX0Url = await zeroX0x(blob, filename);
+const zeroX0Url = await zeroX0(blob, filename);
 ```
